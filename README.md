@@ -2,7 +2,7 @@
 
 ## Problembeschreibung
 
-Die vue.js App erst darf geladen werden, nachdem die Authentifizierung des Benutzers abgeschlossen wurde, um z.B. Benutzerabhängige (Firestore-)Collections verwenden zu können.
+Die vue.js App erst darf geladen werden, nachdem die Authentifizierung des Benutzers abgeschlossen wurde, um z.B. Benutzerabhängige (Firestore-)Collections laden zu können.
 
 ## Problemlösung
 
