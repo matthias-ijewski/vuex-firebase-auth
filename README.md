@@ -6,7 +6,7 @@ Die vue.js App erst darf geladen werden, nachdem die Authentifizierung des Benut
 
 ## Problemlösung
 
-Der Firebase-Auth-OnAuthStateChanged-Observer wird der App-Initialisierung vorgeschaltet und mit unsubscribe() beendet, sobald ein Statuswechsel stattgefunden hat. So bleibt der Benutzer auch nach einem Neuladen der Seite eingeloggt, und die App wird nicht neu gerendert, wenn sich sein Authentifizierungsstatus ändert.
+Der Firebase-Auth-OnAuthStateChanged-Observer wird der App-Initialisierung vorgeschaltet und mit unsubscribe() beendet, sobald ein Statuswechsel stattgefunden hat. So bleibt der Benutzer auch nach einem Neuladen der Seite eingeloggt, und die App wird nicht neu gerendert, wenn sich der Authentifizierungsstatus des Benutzers ändert.
 
 ## Project setup
 ```
